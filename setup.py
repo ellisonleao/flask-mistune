@@ -3,16 +3,16 @@ from setuptools import setup, find_packages
 
 setup(
     name='Flask-Mistune',
-    version='0.1.0',
+    version='0.1.1',
     url='https://github.com/ellisonleao/flask-mistune/',
     license='MIT',
     author=u'Ellison Leão',
     author_email='ellisonleao@gmail.com',
     description=u'A interface between the Flask web framework and the Mistune'
-    u'Markdown parser.',
+    u' Markdown parser.',
     zip_safe=False,
     packages=find_packages(),
-    py_modules=['flask_misaka'],
+    py_modules=['flask_mistune'],
     install_requires=[
         'Flask>=0.7',
         'mistune',
